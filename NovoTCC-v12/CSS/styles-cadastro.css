@@ -1,0 +1,139 @@
+
+:root{
+    --cor1: #123f5e;
+    --cor2: #5DC4E3;
+    --cor3: #BCBDBF;
+    --cor4: #73B367;
+    --cor5: #57585A;
+    --corwhite: #FFFFFF;
+    --corblack: #000;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nova Slim;
+    color: #201C2B;
+    border: none;
+}
+
+input {
+    display: block;
+    outline: none;
+    width: 100%;
+}
+
+label {
+    color: #FFF;
+    display: block;
+    outline: none;
+    width: 100%;
+}
+
+a {
+    color: #2ecc71;
+}
+
+/* form */
+
+#main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--cor1);
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+#main-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+    color: #FFF;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-box {
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.half-box {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing {
+    margin-right: 2.5%;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+
+input:focus {
+    border-color: #2ecc71;
+}
+
+input[type="submit"] {
+    background-color: #2ecc71;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    outline: none;
+    transition: 0.25s;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover {
+    background: #2ecc71;
+}
+
+#agreement {
+    margin-right: 5px;
+}
+
+#agreement,
+#agreement-label {
+    display: inline-block;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.error-validation {
+    color: #ff1a1a;
+    position: absolute;
+    top: 57px;
+    font-size: 12px;
+}
+
+.template {
+    display: none;
+}
+h5{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}

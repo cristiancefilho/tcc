@@ -1,0 +1,134 @@
+/* font importing */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+:root{
+    --cor1: #123f5e;
+    --cor2: #5DC4E3;
+    --cor3: #BCBDBF;
+    --cor4: #73B367;
+    --cor5: #57585A;
+    --corwhite: #FFFFFF;
+    --corblack: #000;
+}
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background:var(--corwhite);
+}
+
+.box {
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    background: var(--cor1);
+    text-align: center;
+    border-radius: 3%;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+.box input[type="email"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid var(--cor2);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: var(--corwhite);
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type="email"]:focus,
+.box input[type="password"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+    background: #2ecc71;
+}
+
+
+
+
+nav ul li {
+    margin: 0px 5px;
+}
+
+nav ul li a {
+    color: aliceblue;
+    font-size: 1.063rem;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.links.active,
+.links:hover {
+    background-color: #C5B2FD;
+    transition: .5%;
+}
+
+.CIEP {
+    margin-left: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.75rem;
+    line-height: 70px;
+    margin-bottom: 50px;
+}
+
+.agreement {
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.agreement-label {
+    display: inline-block;
+    width: auto;
+    color: #2ecc71;
+}
+h5{
+    color: white;
+    font-size: 0.875rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.modal-content{
+    background-color: transparent;
+    border: none
+}
+

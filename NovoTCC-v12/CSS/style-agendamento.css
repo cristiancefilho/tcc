@@ -1,0 +1,221 @@
+:root{
+    --cor1: #123f5e;
+    --cor2: #5DC4E3;
+    --cor3: #BCBDBF;
+    --cor4: #73B367;
+    --cor5: #57585A;
+    --corwhite: #FFFFFF;
+    --corblack: #000;
+}
+
+*{
+    margin: 0px;
+    top: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:var(--cor3) ;
+    font-family: Nova Slim;
+    color: #FFF;
+
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+menu{
+    height: 80px;
+    width: 100px;
+}
+
+label.logo{
+    line-height: 60px;
+    padding: 0 40px;
+    margin-top: 0px;
+}
+.lg{
+    width: 150px;
+    height: 150px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 5%;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 0;
+}
+
+nav ul li a {
+    color: aliceblue;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.links.active, .links:hover{
+    background-color:var(--cor2);
+    transition: .5%;
+}
+
+#main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--cor1);
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: -34px;
+    margin-bottom: 50px;
+    height: 380px;
+}
+
+#main-container h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 1.6rem;
+    color: #FFF;
+}
+
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+
+input:focus {
+    border-color: #2ecc71;
+}
+
+input[type="submit"] {
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+    background: none;
+    text-align: center;
+    border: 2px solid var(--cor4);
+    margin-bottom: 10px;
+    margin-left: 195px;
+    top: 20px;
+    
+}
+
+input[type="submit"]:hover {
+    background: var(--cor4);
+}
+
+#agreement {
+    margin-right: 5px;
+}
+
+#agreement,
+#agreement-label {
+    display: inline-block;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.error-validation {
+    color: #ff1a1a;
+    position: absolute;
+    top: 57px;
+    font-size: 12px;
+}
+
+.template {
+    display: none;
+}
+
+input[type="date"] {
+   margin-left: 136px;
+   padding: 15px;
+   font-size: 15px;
+   font-family: NovaSlim;
+   background-color: var(--cor4);
+   color: white;
+   border-radius: 5px;
+   border: none;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: white
+}
+input[type="time"] {
+   margin-left: 176px;
+   padding: 15px;
+   font-size: 15px;
+   font-family: NovaSlim;
+   background-color: var(--cor4);
+   color: white;
+   border-radius: 5px;
+   border: none;
+   top: 15px;
+}
+.full-box{
+   align-items: center;
+}
+
+footer{
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--cor2);
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    color: rgb(0, 0, 0);
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: var(--cor4);
+}
